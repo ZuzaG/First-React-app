@@ -1,0 +1,239 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+/* header */
+header {
+  height: 60px;
+  background-color: #4e4e4e;
+  margin: 0px;
+  display: flex;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+.mycompany {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navListItem {
+  list-style: none;
+}
+nav {
+  display: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.navList {
+  /* visibility: hidden; */
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  gap: 46px;
+  padding-right: 90px;
+}
+/* main */
+/* section 1  */
+.background,
+.section2,
+.section3 {
+  padding-top: 50px;
+  padding-bottom: 65px;
+}
+main {
+  color: #ffffff;
+}
+.section1 {
+  color: #ffffff;
+  background-image: url("./components/img/tlo2.jpg");
+  background-color: #585454;
+  height: 100vh;
+  background-size: 100% 100%;
+  filter: contrast(130%);
+}
+.nag-sec1 {
+  margin: 0px;
+  padding: 178px 62px 62px 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.main1 {
+  margin: 0px;
+  padding-left: 50px;
+  padding-bottom: 43px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+button {
+  margin-left: 50px;
+  width: 164px;
+  height: 40.74px;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-size: 18px;
+  color: #ffffff;
+  transition-property: background-color color;
+  transition-duration: 1s;
+}
+button:hover {
+  background-color: #fff;
+  color: black;
+}
+/* section 2 */
+.section2 {
+  background: #f1f1f1;
+  color: #152d41;
+}
+.nag-sec2 {
+  padding: 0%;
+  font-weight: 800;
+  text-align: center;
+}
+.employeeList {
+  list-style-type: none;
+  padding: 0px 25px 0px 25px;
+}
+.circleParent {
+  width: 197px;
+  height: 197px;
+}
+.circle1 {
+  width: 197px;
+  height: 197px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  background-image: url("./components/img/pracownik1.jpg");
+  background-size: cover;
+}
+.circle2 {
+  width: 197px;
+  height: 197px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  background-image: url("./components/img/pracownik2.jpg");
+  background-size: cover;
+}
+.employeeListItem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.lorem {
+  font-weight: 600;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+/* section 3 */
+.section3 {
+  background-color: #405d78;
+}
+.nag-sec3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.allServices {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.serviceParent {
+  position: relative;
+  width: 198px;
+  height: 193.78px;
+  font-size: 24px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.reddot {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #e07a64;
+  border-radius: 50%;
+  top: -5%;
+  left: -5%;
+}
+.service {
+  color: #000;
+  width: 100px;
+  text-align: center;
+}
+/* footer */
+.footer {
+  height: 130px;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 21px;
+  font-weight: bold;
+  background-color: #4e4e4e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.reservedRights {
+  margin: 25px;
+  text-align: center;
+}
+.icon {
+  margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+/*  media types > 1280px */
+@media only screen and (min-width: 1280px) {
+  nav {
+    display: block;
+  }
+  #nag-sec2,
+  #nag-sec3 {
+    text-align: left;
+    margin-left: 50px;
+  }
+  .employeeListItem {
+    flex-direction: row;
+  }
+  .employeeListItem:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .serviceParent:hover {
+    transform: scale(1.05);
+  }
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0px;
+  }
+}
