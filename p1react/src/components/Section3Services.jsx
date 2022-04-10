@@ -6,7 +6,6 @@ const Section3Services = ({ services }) => {
           {isNew && (
             <>
               <div className="reddot" />{" "}
-              {/* <div className="service">{name} (nowość)</div> */}
             </>
           )}
           <div className="service">
