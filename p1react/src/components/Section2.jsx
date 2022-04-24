@@ -1,6 +1,6 @@
 const Section2 = () => {
   return (
-    <div className="section2">
+    <div className="section2" id="section2">
       <h1 className="nag-sec2">Nasi specjaliści</h1>
       <ul className="employeeList">
         <li className="employeeListItem">

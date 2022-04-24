@@ -5,12 +5,14 @@ const Header = () => {
       <nav className="nav">
         <ul className="navList">
           <li className="navListItem">
-            <a href=".section2">o nas</a>
+            <a href="#section2">o nas</a>
           </li>
           <li className="navListItem">
-            <a href=".section3">oferta</a>
+            <a href="#section3">oferta</a>
           </li>
-          <li className="navListItem">kontakt</li>
+          <li className="navListItem" id="contact">
+            kontakt
+          </li>
         </ul>
       </nav>
     </header>

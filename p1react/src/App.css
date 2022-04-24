@@ -6,6 +6,7 @@ body {
   margin: 0px;
   height: 100%;
   font-family: "Roboto", sans-serif;
+  width: 960px;
 }
 /* header */
 header {
@@ -22,6 +23,9 @@ header {
   justify-content: flex-start;
   margin-left: 50px;
   align-items: center;
+}
+#contact {
+  cursor: not-allowed;
 }
 a {
   text-decoration: none;
@@ -104,7 +108,6 @@ button:hover {
 }
 .nag-sec2 {
   padding: 0%;
-  font-weight: 800;
   text-align: center;
 }
 .employeeList {
@@ -138,7 +141,6 @@ button:hover {
   flex-direction: column;
 }
 .lorem {
-  font-weight: 600;
   text-align: justify;
   margin-bottom: 30px;
 }
@@ -215,8 +217,8 @@ button:hover {
   nav {
     display: block;
   }
-  #nag-sec2,
-  #nag-sec3 {
+  .nag-sec2,
+  .nag-sec3 {
     text-align: left;
     margin-left: 50px;
   }
@@ -226,6 +228,9 @@ button:hover {
   .employeeListItem:nth-of-type(even) {
     flex-direction: row-reverse;
     text-align: right;
+  }
+  .allServices {
+    width: 660px;
   }
   .serviceParent:hover {
     transform: scale(1.05);

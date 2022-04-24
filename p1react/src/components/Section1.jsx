@@ -6,7 +6,7 @@ const Section1 = () => {
       </h1>
       <p className="main1">Nie wierz nam na słowo - sprawdź</p>
       <button>
-        <a href=".section3">oferta</a>
+        <a href="#section3">oferta</a>
       </button>
     </div>
   );
