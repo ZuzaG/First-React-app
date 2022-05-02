@@ -212,8 +212,8 @@ button:hover {
   align-items: center;
   gap: 25px;
 }
-/*  media types > 1280px */
-@media only screen and (min-width: 1280px) {
+/*  media types > 960px */
+@media only screen and (min-width: 960px) {
   body {
     width: 960px;
   }
