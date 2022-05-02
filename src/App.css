@@ -6,7 +6,7 @@ body {
   margin: 0px;
   height: 100%;
   font-family: "Roboto", sans-serif;
-  width: 960px;
+  width: 100%;
 }
 /* header */
 header {
@@ -214,6 +214,9 @@ button:hover {
 }
 /*  media types > 1280px */
 @media only screen and (min-width: 1280px) {
+  body {
+    width: 960px;
+  }
   nav {
     display: block;
   }
